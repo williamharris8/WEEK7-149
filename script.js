@@ -9,3 +9,12 @@ const timerId = setInterval(function () {
   panel1.style.backgroundColor = randomColor();
   panel2.style.backgroundColor = randomColor();
 }, 1500);
+
+floor.addEventListener("click", function () {
+  floor.style.backgroundColor = randomColor();
+});
+
+dancer.addEventListener("click", function (event) {
+  event.stopPropagation();
+  dancer.textContent = "💃";
+});

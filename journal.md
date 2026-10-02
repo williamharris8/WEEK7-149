@@ -1,1 +1,3 @@
 PHASE 1 - Using setInterval for changing color panel colors every 1.5 seconds then saved its ID in timerID to stop later. For a random color generation Math.random put into an rgb string. A steady interval gives the lights a rhythm instead of flashing too fast.
+
+PHASE 2 - Event buubling is when an event triggered on an element moves upward to its parent and all the way up the page. But you can use event.stopPropagation method inside your function to prevent it from traveling further. In my code clicking the dancer would change the floor color too otherwise.
