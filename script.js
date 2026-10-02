@@ -18,3 +18,15 @@ dancer.addEventListener("click", function (event) {
   event.stopPropagation();
   dancer.textContent = "💃";
 });
+
+window.addEventListener("keydown", function (event) {
+  if (event.key === "ArrowUp") dancer.textContent = "🥳";
+  if (event.key === "ArrowDown") dancer.textContent = "🪩";
+  if (event.key === "ArrowLeft") dancer.textContent = "🎉";
+  if (event.key === "ArrowRight") dancer.textContent = "🎶";
+
+  if (event.key === "r") {
+    floor.style.backgroundColor = "black";
+    clearInterval(timerId);
+  }
+});
