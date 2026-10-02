@@ -1,0 +1,1 @@
+PHASE 1 - Using setInterval for changing color panel colors every 1.5 seconds then saved its ID in timerID to stop later. For a random color generation Math.random put into an rgb string. A steady interval gives the lights a rhythm instead of flashing too fast.
